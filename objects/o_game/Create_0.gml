@@ -1,9 +1,47 @@
 produtos = [];
 managers = [];
 
+surf_man = noone;
+man_w_base = 25;
+man_w = 1;
+man_h = 230;
+man_x = 93;
+man_y = 25;
+
 base_y = 20;
 
 produtos_y = 0 + base_y;
+
+desenha_managers = function(){
+    
+    if(global.exibe_manager){
+        man_w = lerp(man_w, man_w_base, .1)
+    } else {
+        man_w = lerp(man_w, 1, .1);
+    }
+    
+    if surface_exists(surf_man){
+        surface_set_target(surf_man)
+        
+        draw_clear_alpha(c_black, 0);
+        draw_rectangle_colour(0, 0, man_w, man_h, c_black, c_black, c_black, c_black, 0)
+        
+        if(man_h > 3){
+            with(o_manager){
+                desenha_manager();
+            }
+        }
+        
+        surface_reset_target();
+        
+        draw_surface(surf_man, man_x, man_y);
+        
+        surface_resize(surf_man, man_w, man_h);
+        
+    } else {
+        surf_man = surface_create(man_w, man_h);
+    } 
+}
 
 cria_produtos = function(qtd = 1){
     for(var i = 0; i < qtd; i++){ 
@@ -18,7 +56,8 @@ cria_produtos = function(qtd = 1){
 cria_manager = function(){
     for (var i = 0; i < array_length(produtos); i++){
         managers[i] = instance_create_layer(96, 25 + i * 40, layer, o_manager);
-        managers[i].custo = global.produtos[i].custo_base * 12.5;
+        managers[i].custo = global.produtos[i].custo_base * 10.25;
+        managers[i].indice = i;
     }
     
 }

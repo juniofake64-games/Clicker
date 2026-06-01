@@ -54,12 +54,13 @@ desenha_produto = function(){
     //sprite produto
     
     if level <= 0{
-        sprite = s_pote
+        sprite = s_pote;
         subimg = 0;
-    } else if level > 0{
-
-        sprite = s_produto
-        subimg = indice;
+    } else if level > 0 && fazer == false{
+        sprite = s_produto;
+        subimg = spr;
+    } else {
+        subimg = spr + 1;
     }
     
     draw_sprite(sprite, subimg, x, y)

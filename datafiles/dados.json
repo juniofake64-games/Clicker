@@ -2,6 +2,7 @@
     "items":[
         {
             "indice": 0,
+            "spr": 0,
             "nome": "Trigo",
             "custo_base": 10,
             "tempo": 1,
@@ -9,6 +10,7 @@
         },
         {
             "indice": 1,
+            "spr": 2,
             "nome": "Cenoura",
             "custo_base": 50,
             "tempo": 10,
@@ -16,6 +18,7 @@
         },
         {
             "indice": 2,
+            "spr": 4,
             "nome": "Cebola",
             "custo_base": 200,
             "tempo": 30,
@@ -23,6 +26,7 @@
         },
         {
             "indice": 3,
+            "spr": 6,
             "nome": "Tomate",
             "custo_base": 500,
             "tempo": 55,
@@ -30,6 +34,7 @@
         },
         {
             "indice": 4,
+            "spr": 8,
             "nome": "Batata",
             "custo_base": 1250,
             "tempo": 120,
@@ -37,15 +42,17 @@
         },
         {
             "indice": 5,
+            "spr": 10,
             "nome": "Abóbora",
-            "custo_base": 2150,
+            "custo_base": 2450,
             "tempo": 150,
             "lucro_base": 250
         },
         {
             "indice": 6,
+            "spr": 12,
             "nome": "Pimenta",
-            "custo_base": 3750,
+            "custo_base": 4750,
             "tempo": 240,
             "lucro_base": 575
         }
