@@ -10,6 +10,9 @@ if comprado {
         acao();
     }
 }
+
+
+
 var mouse_sobre = position_meeting(mouse_x, mouse_y, id);   
 var mouse_click = mouse_check_button_pressed(mb_left);
     

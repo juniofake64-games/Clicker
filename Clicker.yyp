@@ -19,6 +19,13 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+    {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_distort-1.0.0","name":"io.gamemaker.gm_filter_distort-1.0.0","path":"io.gamemaker.gm_filter_distort-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_heathaze-1.0.0","name":"io.gamemaker.gm_filter_heathaze-1.0.0","path":"io.gamemaker.gm_filter_heathaze-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_pixelate-1.0.0","name":"io.gamemaker.gm_filter_pixelate-1.0.0","path":"io.gamemaker.gm_filter_pixelate-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_posterise-1.0.0","name":"io.gamemaker.gm_filter_posterise-1.0.0","path":"io.gamemaker.gm_filter_posterise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_fractal_noise-1.0.0","name":"io.gamemaker.gm_filter_fractal_noise-1.0.0","path":"io.gamemaker.gm_filter_fractal_noise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_contrast-1.0.0","name":"io.gamemaker.gm_filter_contrast-1.0.0","path":"io.gamemaker.gm_filter_contrast-1.0.0.yyp",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"dados.json","CopyToMask":-1,"filePath":"datafiles","name":"dados.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -47,6 +54,7 @@
     {"id":{"name":"s_nupgrade","path":"sprites/s_nupgrade/s_nupgrade.yy",},},
     {"id":{"name":"s_pote","path":"sprites/s_pote/s_pote.yy",},},
     {"id":{"name":"s_produto","path":"sprites/s_produto/s_produto.yy",},},
+    {"id":{"name":"s_tecla","path":"sprites/s_tecla/s_tecla.yy",},},
     {"id":{"name":"s_upgrade_sel","path":"sprites/s_upgrade_sel/s_upgrade_sel.yy",},},
     {"id":{"name":"s_upgrade","path":"sprites/s_upgrade/s_upgrade.yy",},},
   ],

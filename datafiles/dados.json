@@ -14,7 +14,7 @@
             "nome": "Cenoura",
             "custo_base": 50,
             "tempo": 10,
-            "lucro_base": 5
+            "lucro_base": 20
         },
         {
             "indice": 2,
@@ -22,7 +22,7 @@
             "nome": "Cebola",
             "custo_base": 200,
             "tempo": 30,
-            "lucro_base": 25
+            "lucro_base": 65
         },
         {
             "indice": 3,
@@ -30,7 +30,7 @@
             "nome": "Tomate",
             "custo_base": 500,
             "tempo": 55,
-            "lucro_base": 65
+            "lucro_base": 105
         },
         {
             "indice": 4,
@@ -38,7 +38,7 @@
             "nome": "Batata",
             "custo_base": 1250,
             "tempo": 120,
-            "lucro_base": 145
+            "lucro_base": 175
         },
         {
             "indice": 5,
@@ -46,7 +46,7 @@
             "nome": "Abóbora",
             "custo_base": 2450,
             "tempo": 150,
-            "lucro_base": 250
+            "lucro_base": 290
         },
         {
             "indice": 6,
@@ -54,7 +54,7 @@
             "nome": "Pimenta",
             "custo_base": 4750,
             "tempo": 240,
-            "lucro_base": 575
+            "lucro_base": 675
         }
     ]
 }

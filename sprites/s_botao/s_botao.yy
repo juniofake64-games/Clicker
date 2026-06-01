@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"s_botao",
   "bboxMode":0,
-  "bbox_bottom":10,
+  "bbox_bottom":11,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":11,
+  "height":12,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c18a0156-e1b1-4635-8707-f6b82529b1b9","blendMode":0,"displayName":"default","isLocked":false,"name":"c18a0156-e1b1-4635-8707-f6b82529b1b9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

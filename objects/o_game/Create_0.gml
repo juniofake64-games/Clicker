@@ -94,18 +94,18 @@ rolagem = function(_val = 10){
 gerencia_managers = function(){
     static meu_y = 0;
     
-    meu_y += rolagem(15);
+    meu_y += rolagem(4);
     
     
     var _qtd = array_length(managers);
-    var _max = (_qtd) + (40 * _qtd) + 12 - room_height;
+    var _max = (_qtd) + (54 * _qtd) + 12 - room_height;
     //limite
     meu_y = clamp(meu_y, -_max, 0);
     
     for(var i = 0; i < _qtd; i++){
-        var _marg = 26;
-        var _x = 95;
-        var _y = meu_y + _marg + ((i * 41));
+        var _marg = 37;
+        var _x = 90;
+        var _y = meu_y + _marg + ((i * 52));
         
         with(managers[i]){
             x = _x;
@@ -119,17 +119,17 @@ gerencia_produtos = function(){
 
     static meu_y = 0;
     
-    meu_y += rolagem(15);
+    meu_y += rolagem(4);
     
     var _qtd = array_length(produtos);
-    var _max = (_qtd) + (40 * _qtd) + 12 - room_height;
+    var _max = (_qtd) + (54 * _qtd) + 12 - room_height;
     //limite
     meu_y = clamp(meu_y, -_max, 0);
     
     //listar
     for(var i = 0; i < array_length(produtos); i++){
-        var _marg = 41;
-        var _x = 52;
+        var _marg = 52;
+        var _x = 48;
         var _y = meu_y + _marg + (i * _marg);
         with(produtos[i]){
             x = _x;
