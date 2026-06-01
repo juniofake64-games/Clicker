@@ -12,6 +12,8 @@ base_y = 20;
 
 produtos_y = 0 + base_y;
 
+//efeito bonitin de aparecer os managers (COM BUG (não aparece a sprite do manager))
+/*
 desenha_managers = function(){
     
     if(global.exibe_manager){
@@ -41,7 +43,7 @@ desenha_managers = function(){
     } else {
         surf_man = surface_create(man_w, man_h);
     } 
-}
+} */
 
 cria_produtos = function(qtd = 1){
     for(var i = 0; i < qtd; i++){ 
