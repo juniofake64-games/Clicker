@@ -8,7 +8,7 @@ desenha_manager = function(){
     draw_set_valign(1);
     draw_set_font(fonte);
     
-    var str = "R$" + string_format(custo, 0, 0);
+    var str = "R$" + convert_num(custo);
     var txt = comprado == true ? "SOLD" : str;
     var cor = global.money >= custo ? s_manager : s_nmanager
     

@@ -11,4 +11,5 @@ if (keyboard_check(vk_space)){
 #endregion
 
 gerencia_produtos();
+gerencia_managers();
 

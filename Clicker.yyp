@@ -45,6 +45,7 @@
     {"id":{"name":"s_manager","path":"sprites/s_manager/s_manager.yy",},},
     {"id":{"name":"s_nmanager","path":"sprites/s_nmanager/s_nmanager.yy",},},
     {"id":{"name":"s_nupgrade","path":"sprites/s_nupgrade/s_nupgrade.yy",},},
+    {"id":{"name":"s_pote","path":"sprites/s_pote/s_pote.yy",},},
     {"id":{"name":"s_produto","path":"sprites/s_produto/s_produto.yy",},},
     {"id":{"name":"s_upgrade_sel","path":"sprites/s_upgrade_sel/s_upgrade_sel.yy",},},
     {"id":{"name":"s_upgrade","path":"sprites/s_upgrade/s_upgrade.yy",},},

@@ -54,15 +54,18 @@ desenha_produto = function(){
     //sprite produto
     
     if level <= 0{
+        sprite = s_pote
         subimg = 0;
-    } else {
+    } else if level > 0{
+
+        sprite = s_produto
         subimg = indice;
     }
     
-    draw_sprite(s_produto, subimg, x, y)
+    draw_sprite(sprite, subimg, x, y)
     
     //item
-    draw_sprite_ext(s_item, indice - 1, x - 8, y-7, 1.25, 1.25, 0, c_white, 1);
+    draw_sprite_ext(s_item, indice, x - 8, y-7, 1.25, 1.25, 0, c_white, 1);
     
     #region textos informativos (level) +
 
