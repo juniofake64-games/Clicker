@@ -14,6 +14,7 @@ if (array_length(global.manager) <= indice){
     tenho_manager = 0;
 }
 
+//alala
 #region economia
 
 custo = custo_base;
