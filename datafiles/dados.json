@@ -1,0 +1,25 @@
+{
+    "items":[
+        {
+            "indice": 1,
+            "nome": "Trigo",
+            "custo_base": 10,
+            "tempo": 1,
+            "lucro_base": 1
+        },
+        {
+            "indice": 2,
+            "nome": "Cenoura",
+            "custo_base": 50,
+            "tempo": 10,
+            "lucro_base": 5
+        },
+        {
+            "indice": 3,
+            "nome": "Cebola",
+            "custo_base": 200,
+            "tempo": 30,
+            "lucro_base": 25
+        }
+    ]
+}
