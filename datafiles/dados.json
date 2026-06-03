@@ -13,7 +13,7 @@
             "spr": 2,
             "nome": "Cenoura",
             "custo_base": 50,
-            "tempo": 10,
+            "tempo": 5,
             "lucro_base": 20
         },
         {
@@ -21,7 +21,7 @@
             "spr": 4,
             "nome": "Cebola",
             "custo_base": 200,
-            "tempo": 30,
+            "tempo": 15,
             "lucro_base": 65
         },
         {
@@ -29,7 +29,7 @@
             "spr": 6,
             "nome": "Tomate",
             "custo_base": 500,
-            "tempo": 55,
+            "tempo": 25,
             "lucro_base": 105
         },
         {
@@ -37,7 +37,7 @@
             "spr": 8,
             "nome": "Batata",
             "custo_base": 1250,
-            "tempo": 120,
+            "tempo": 60,
             "lucro_base": 175
         },
         {
@@ -45,7 +45,7 @@
             "spr": 10,
             "nome": "Abóbora",
             "custo_base": 2450,
-            "tempo": 150,
+            "tempo": 125,
             "lucro_base": 290
         },
         {
@@ -53,8 +53,8 @@
             "spr": 12,
             "nome": "Pimenta",
             "custo_base": 4750,
-            "tempo": 240,
-            "lucro_base": 675
+            "tempo": 180,
+            "lucro_base": 680
         }
     ]
 }

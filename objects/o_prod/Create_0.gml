@@ -63,7 +63,7 @@ desenha_produto = function(){
         subimg = spr + 1;
     }
     
-    draw_sprite(sprite, subimg, x, y)
+    draw_sprite(sprite, subimg, x, y+8)
     
     //item
     draw_sprite_ext(s_item, indice, x - 8, y-7, 1.25, 1.25, 0, c_white, 1);
