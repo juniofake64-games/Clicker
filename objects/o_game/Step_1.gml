@@ -9,8 +9,10 @@ if (keyboard_check(vk_space)){
     global.game_spd = 1;
 }
 
-if keyboard_check(ord("Q")){
-    global.money += 1000;
+valor = 1000000
+
+if keyboard_check_pressed(ord("Q")){
+    global.money += valor;
 }
 
 #endregion

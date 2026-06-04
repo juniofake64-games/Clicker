@@ -4,57 +4,57 @@
             "indice": 0,
             "spr": 0,
             "nome": "Trigo",
-            "custo_base": 10,
+            "custo_base": 1000,
             "tempo": 1,
-            "lucro_base": 1
+            "lucro_base": 20
         },
         {
             "indice": 1,
             "spr": 2,
             "nome": "Cenoura",
-            "custo_base": 50,
+            "custo_base": 5000,
             "tempo": 5,
-            "lucro_base": 20
+            "lucro_base": 400
         },
         {
             "indice": 2,
             "spr": 4,
             "nome": "Cebola",
-            "custo_base": 200,
+            "custo_base": 20000,
             "tempo": 15,
-            "lucro_base": 65
+            "lucro_base": 1350
         },
         {
             "indice": 3,
             "spr": 6,
             "nome": "Tomate",
-            "custo_base": 500,
+            "custo_base": 50000,
             "tempo": 25,
-            "lucro_base": 105
+            "lucro_base": 2175
         },
         {
             "indice": 4,
             "spr": 8,
             "nome": "Batata",
-            "custo_base": 1250,
+            "custo_base": 125000,
             "tempo": 60,
-            "lucro_base": 175
+            "lucro_base": 6500
         },
         {
             "indice": 5,
             "spr": 10,
             "nome": "Abóbora",
-            "custo_base": 2450,
+            "custo_base": 245000,
             "tempo": 125,
-            "lucro_base": 290
+            "lucro_base": 13575
         },
         {
             "indice": 6,
             "spr": 12,
             "nome": "Pimenta",
-            "custo_base": 4750,
+            "custo_base": 475000,
             "tempo": 180,
-            "lucro_base": 680
+            "lucro_base": 27125
         }
     ]
 }

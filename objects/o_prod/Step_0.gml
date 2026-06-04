@@ -13,14 +13,14 @@ if comprado {
 
 
 
-var mouse_sobre = position_meeting(mouse_x, mouse_y, id);   
+var mouse_sobre = position_meeting(mouse_x, mouse_y, id);
 var mouse_click = mouse_check_button_pressed(mb_left);
 
 if mouse_click {
     audio_play_sound(click, 1, 0, .75, 0, random_range(.85, 1.15));
-}    
+}
 
-if mouse_sobre{ 
+if mouse_sobre{
     if mouse_click{
         fazer = true;
     }
